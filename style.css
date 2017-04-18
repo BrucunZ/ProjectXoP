@@ -1,0 +1,29 @@
+#loli{
+    height:133px;
+    width:100px;
+    background:url("https://farm3.staticflickr.com/2922/34067172606_199af27ed7_m.jpg");
+    display:none;
+}
+#ground{
+    height:15px;
+    width:1000000000px;
+    background-color:black;
+    position:fixed;
+    display:none;
+}
+body{
+    background-color:red;
+}
+#start{
+    height:40px;
+    width:60px;
+    position:absolute;
+}
+h1{
+    height:40px;
+    width:55px;
+    position:absolute;
+}
+audio{
+    display:none;
+}
