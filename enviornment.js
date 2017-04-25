@@ -1,29 +1,7 @@
 /*global $*/
-$(document).ready(function(){
     $("#start").click(function(){
-  $("#loli").css("display","full");
+  $("audio").trigger("play");
+  $("h1").hide();
+  $("#start").hide();
+  $("#kim").show();
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-});

@@ -1,29 +1,43 @@
-#loli{
+#kim{
     height:133px;
     width:100px;
-    background:url("https://farm3.staticflickr.com/2922/34067172606_199af27ed7_m.jpg");
-    display:none;
+    background:url("http://www167.lunapic.com/editor/saveas.php?4570689280");
+    
+
 }
+@keyframes run{
+    from{background-position:-100px;}
+    to{background-position:-500px;}
+}
+
+
 #ground{
     height:15px;
     width:1000000000px;
     background-color:black;
     position:fixed;
-    display:none;
+   
 }
 body{
     background-color:red;
 }
 #start{
-    height:40px;
-    width:60px;
+    height:340px;
+    width:380px;
     position:absolute;
+    top:570px;
+    left:0px;
+ 
 }
 h1{
-    height:40px;
-    width:55px;
-    position:absolute;
+    font-family: 'Nothing You Could Do', cursive;
+    height:500px;
+    width:500px;
 }
+
 audio{
     display:none;
+}
+tittle{
+display:none;
 }
