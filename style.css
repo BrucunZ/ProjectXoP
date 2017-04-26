@@ -1,16 +1,24 @@
 #kim{
-    height:133px;
+    height:128px;
     width:100px;
-    background:url("http://www167.lunapic.com/editor/saveas.php?4570689280");
-    
-
+    background:url("http://www196.lunapic.com/editor/saveas.php?5395759321");
+    display:none;
+    animation: runright 0.5s steps(4) 0;
+    animation: runleft 0.5s steps(4) 0;
+    animation: punchright 0.3s steps(2) 0;
 }
-@keyframes run{
+@keyframes runright{
     from{background-position:-100px;}
     to{background-position:-500px;}
 }
-
-
+@keyframes runleft{
+    from{background-position:-600px;}
+    to{background-position:-1000px;}
+}
+@keyframes punchright{
+    from{background-position:-1100px;}
+    to{background-position:-1300px;}
+}
 #ground{
     height:15px;
     width:1000000000px;
